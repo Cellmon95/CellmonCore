@@ -1,0 +1,35 @@
+﻿{
+  "version": "1.0.0-*",
+  "description": "GameCore Console Application",
+  "authors": [ "Cellmon95" ],
+  "tags": [ "" ],
+  "projectUrl": "",
+  "licenseUrl": "",
+
+  "dependencies": {
+  },
+
+  "commands": {
+    "GameCore": "GameCore"
+  },
+
+  "frameworks": {
+    "dnx451": {
+      "dependencies": {
+        "sfmlnet-audio-2": "1.0.0-*",
+        "sfmlnet-graphics-2": "1.0.0-*",
+        "sfmlnet-system-2": "1.0.0-*",
+        "sfmlnet-window-2": "1.0.0-*"
+      }
+    },
+    "dnxcore50": {
+      "dependencies": {
+        "System.Collections": "4.0.10-beta-23019",
+        "System.Console": "4.0.0-beta-23019",
+        "System.Linq": "4.0.0-beta-23019",
+        "System.Threading": "4.0.10-beta-23019",
+        "Microsoft.CSharp": "4.0.0-beta-23019"
+      }
+    }
+  }
+}
